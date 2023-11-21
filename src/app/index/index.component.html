@@ -1,0 +1,6 @@
+<div class="content">
+  <div class="nes-container with-title is-centered is-rounded {{ title }}">
+    <h1 class="title">{{ title[0].toUpperCase() + title.slice(1) }}</h1>
+    <p *ngFor="let line of text">{{ line }}</p>
+  </div>
+</div>

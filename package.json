@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "lint": "ng lint",
-    "test": "echo 'No tests yet'",
+    "test": "ng test --no-watch --no-progress --browsers=ChromeHeadlessCI",
     "deploy": "ng deploy"
   },
   "private": true,

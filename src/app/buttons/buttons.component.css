@@ -1,0 +1,89 @@
+#naomi {
+  background-color: var(--naomi-bg);
+  color: var(--naomi-text);
+}
+
+#naomi::after {
+  box-shadow: inset -4px -4px var(--naomi-text);
+}
+
+#naomi:hover {
+  background-color: var(--naomi-text);
+  color: var(--naomi-bg);
+}
+
+#naomi:hover::after {
+  box-shadow: inset -4px -4px var(--naomi-bg);
+}
+
+#soup {
+  background-color: var(--soup-bg);
+  color: var(--soup-text);
+}
+
+#soup::after {
+  box-shadow: inset -4px -4px var(--soup-text);
+}
+
+#soup:hover {
+  background-color: var(--soup-text);
+  color: var(--soup-bg);
+}
+
+#soup:hover::after {
+  box-shadow: inset -4px -4px var(--soup-bg);
+}
+
+#melody {
+  background-color: var(--melody-bg);
+  color: var(--melody-text);
+}
+
+#melody::after {
+  box-shadow: inset -4px -4px var(--melody-text);
+}
+
+#melody:hover {
+  background-color: var(--melody-text);
+  color: var(--melody-bg);
+}
+
+#melody:hover::after {
+  box-shadow: inset -4px -4px var(--melody-bg);
+}
+
+#becca {
+  background-color: var(--becca-bg);
+  color: var(--becca-text);
+}
+
+#becca::after {
+  box-shadow: inset -4px -4px var(--becca-text);
+}
+
+#becca:hover {
+  background-color: var(--becca-text);
+  color: var(--becca-bg);
+}
+
+#becca:hover::after {
+  box-shadow: inset -4px -4px var(--becca-bg);
+}
+
+#rosalia {
+  background-color: var(--rosalia-bg);
+  color: var(--rosalia-text);
+}
+
+#rosalia::after {
+  box-shadow: inset -4px -4px var(--rosalia-text);
+}
+
+#rosalia:hover {
+  background-color: var(--rosalia-text);
+  color: var(--rosalia-bg);
+}
+
+#rosalia:hover::after {
+  box-shadow: inset -4px -4px var(--rosalia-bg);
+}

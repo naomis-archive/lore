@@ -1,0 +1,59 @@
+.lore {
+  background-color: var(--landing-bg);
+  color: var(--landing-text);
+}
+
+.lore > .title {
+  background-color: var(--landing-text);
+  color: var(--landing-bg);
+}
+
+.naomi {
+  background-color: var(--naomi-bg);
+  color: var(--naomi-text);
+}
+
+.naomi > .title {
+  background-color: var(--naomi-text);
+  color: var(--naomi-bg);
+}
+
+.soup {
+  background-color: var(--soup-bg);
+  color: var(--soup-text);
+}
+
+.soup > .title {
+  background-color: var(--soup-text);
+  color: var(--soup-bg);
+}
+
+.melody {
+  background-color: var(--melody-bg);
+  color: var(--melody-text);
+}
+
+.melody > .title {
+  background-color: var(--melody-text);
+  color: var(--melody-bg);
+}
+
+.becca {
+  background-color: var(--becca-bg);
+  color: var(--becca-text);
+}
+
+.becca > .title {
+  background-color: var(--becca-text);
+  color: var(--becca-bg);
+}
+
+.rosalia {
+  background-color: var(--rosalia-bg);
+  color: var(--rosalia-text);
+}
+
+.rosalia > .title {
+  background-color: var(--rosalia-text);
+  color: var(--rosalia-bg);
+}

@@ -1,11 +1,13 @@
 :root {
+  --landing-text: #454a00;
+  --landing-bg: #fbffc4;
   --naomi-text: #3a3240;
   --naomi-bg: #aea8de;
   --soup-text: #5c0600;
   --soup-bg: #ffa099;
   --melody-text: #005273;
   --melody-bg: #ccf1ff;
-  --becca-text: #9c5fcd;
+  --becca-text: #533070;
   --becca-bg: #efc3ef;
   --rosalia-text: #004502;
   --rosalia-bg: #e0ffe1;
@@ -31,7 +33,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: var(--dark-purple);
+  color: var(--landing-text);
   font-family: "Odudo", Courier, monospace;
   text-align: center;
 }
@@ -43,7 +45,7 @@ body {
 }
 
 .nes-container.is-rounded {
-  background-color: rgb(174, 168, 222, 0.75);
+  background-color: var(--landing-bg);
 }
 
 .nes-container.is-rounded.with-title.is-centered {
@@ -51,8 +53,6 @@ body {
 }
 
 .nes-container.is-rounded.with-title.is-centered > .title {
-  background-color: var(--naomi-text);
-  color: var(--naomi-bg);
   font-size: 1.5rem;
 }
 

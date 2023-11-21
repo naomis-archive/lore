@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { IndexComponent } from './index.component';
+import { RouterTestingModule } from '@angular/router/testing';
 
 describe('IndexComponent', () => {
   let component: IndexComponent;
@@ -8,10 +9,9 @@ describe('IndexComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [IndexComponent]
-    })
-    .compileComponents();
-    
+      imports: [IndexComponent, RouterTestingModule],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(IndexComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

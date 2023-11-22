@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EventType, Router } from '@angular/router';
 import { Lore } from '../config/Lore';
+import { Avatars } from '../config/Avatars';
 
 @Component({
   selector: 'app-index',
@@ -16,6 +17,7 @@ export class IndexComponent {
     'This page holds lore for Naomi, her wife, and her three characters.',
     'Use the buttons below to browse!',
   ];
+  public avatar = '';
 
   constructor(private router: Router) {
     router.events.subscribe((e) => {
@@ -29,6 +31,7 @@ export class IndexComponent {
               'This page holds lore for Naomi, her wife, and her three characters.',
               'Use the buttons below to browse!',
             ];
+        this.avatar = Avatars[this.title] ?? '';
       }
     });
   }

@@ -1,16 +1,16 @@
 :root {
   --landing-text: #454a00;
-  --landing-bg: #fbffc4;
+  --landing-bg: #fbffc4C0;
   --naomi-text: #3a3240;
-  --naomi-bg: #aea8de;
+  --naomi-bg: #aea8deC0;
   --soup-text: #5c0600;
-  --soup-bg: #ffa099;
+  --soup-bg: #ffa099C0;
   --melody-text: #005273;
-  --melody-bg: #ccf1ff;
+  --melody-bg: #ccf1ffC0;
   --becca-text: #533070;
-  --becca-bg: #efc3ef;
+  --becca-bg: #efc3efC0;
   --rosalia-text: #004502;
-  --rosalia-bg: #e0ffe1;
+  --rosalia-bg: #e0ffe1C0;
   --cursor-normal: url("https://cdn.nhcarrigan.com/cursors/cursor.cur");
   --cursor-pointer: url("https://cdn.nhcarrigan.com/cursors/pointer.cur");
 }

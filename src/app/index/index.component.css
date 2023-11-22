@@ -1,3 +1,7 @@
+.avatar {
+  width: 250px;
+}
+
 .lore {
   background-color: var(--landing-bg);
   color: var(--landing-text);

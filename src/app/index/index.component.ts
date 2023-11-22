@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, Inject } from '@angular/core';
+import { CommonModule, DOCUMENT } from '@angular/common';
 import { EventType, Router } from '@angular/router';
 import { Lore } from '../config/Lore';
+import { Avatars } from '../config/Avatars';
+import { Banners } from '../config/Banners';
 
 @Component({
   selector: 'app-index',
@@ -16,8 +18,12 @@ export class IndexComponent {
     'This page holds lore for Naomi, her wife, and her three characters.',
     'Use the buttons below to browse!',
   ];
+  public avatar = '';
 
-  constructor(private router: Router) {
+  constructor(
+    private router: Router,
+    @Inject(DOCUMENT) private document: Document
+  ) {
     router.events.subscribe((e) => {
       if (e.type === EventType.NavigationEnd) {
         this.title = e.url.split('/')?.slice(-1)?.join('') || 'lore';
@@ -29,6 +35,10 @@ export class IndexComponent {
               'This page holds lore for Naomi, her wife, and her three characters.',
               'Use the buttons below to browse!',
             ];
+        this.avatar = Avatars[this.title] ?? '';
+        if (Banners[this.title]) {
+          document.body.style.backgroundImage = `url(${Banners[this.title]})`;
+        }
       }
     });
   }

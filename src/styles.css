@@ -1,16 +1,16 @@
 :root {
   --landing-text: #454a00;
-  --landing-bg: #fbffc4C0;
+  --landing-bg: #fbffc4c0;
   --naomi-text: #3a3240;
-  --naomi-bg: #aea8deC0;
+  --naomi-bg: #aea8dec0;
   --soup-text: #5c0600;
-  --soup-bg: #ffa099C0;
+  --soup-bg: #ffa099c0;
   --melody-text: #005273;
-  --melody-bg: #ccf1ffC0;
+  --melody-bg: #ccf1ffc0;
   --becca-text: #533070;
-  --becca-bg: #efc3efC0;
+  --becca-bg: #efc3efc0;
   --rosalia-text: #004502;
-  --rosalia-bg: #e0ffe1C0;
+  --rosalia-bg: #e0ffe1c0;
   --cursor-normal: url("https://cdn.nhcarrigan.com/cursors/cursor.cur");
   --cursor-pointer: url("https://cdn.nhcarrigan.com/cursors/pointer.cur");
 }
@@ -29,6 +29,7 @@ body {
   margin: 0;
   background: url("https://cdn.nhcarrigan.com/banner.png") no-repeat top center
     fixed;
+  background-image: url("https://cdn.nhcarrigan.com/banner.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

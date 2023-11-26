@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {
-  EventType,
-  Router,
-  RouterEvent,
-  RouterLink,
-  RouterStateSnapshot,
-} from '@angular/router';
+import { EventType, Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-buttons',

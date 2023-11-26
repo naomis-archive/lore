@@ -18,7 +18,7 @@ export class IndexComponent {
     'This page holds lore for Naomi, her wife, and her three characters.',
     'Use the buttons below to browse!',
   ];
-  public avatar = '';
+  public avatar = 'https://cdn.nhcarrigan.com/profile.png';
 
   constructor(
     private router: Router,
@@ -27,7 +27,6 @@ export class IndexComponent {
     router.events.subscribe((e) => {
       if (e.type === EventType.NavigationEnd) {
         this.title = e.url.split('/')?.slice(-1)?.join('') || 'lore';
-        console.log(`Title is: '${this.title}'`);
         const lore = Lore[this.title]?.split(/\n+/g);
         this.text = lore.length
           ? lore
@@ -36,9 +35,9 @@ export class IndexComponent {
               'Use the buttons below to browse!',
             ];
         this.avatar = Avatars[this.title] ?? '';
-        if (Banners[this.title]) {
-          document.body.style.backgroundImage = `url(${Banners[this.title]})`;
-        }
+        document.body.style.backgroundImage = `url(${
+          Banners[this.title] || 'https://cdn.nhcarrigan.com/banner.png'
+        })`;
       }
     });
   }

@@ -1,27 +1,29 @@
 # Lore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.2.
+This is just a site for my characters' lore (also featuring my wifey's character).
 
-## Development server
+## Live Version
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This page is currently deployed. [View the live website.](https://lore.naomi.lgbt)
 
-## Code scaffolding
+## Feedback and Bugs
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+If you have feedback or a bug report, please feel free to open a GitHub issue!
 
-## Build
+## Contributing
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+If you would like to contribute to the project, you may create a Pull Request containing your proposed changes and we will review it as soon as we are able! Please review our [contributing guidelines](CONTRIBUTING.md) first.
 
-## Running unit tests
+## Code of Conduct
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Before interacting with our community, please read our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## Running end-to-end tests
+## License
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+This software is licensed under our [global software license](https://docs.nhcarrigan.com/#/license).
 
-## Further help
+Copyright held by Naomi Carrigan.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contact
+
+We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via email at `contact@nhcarrigan.com`.

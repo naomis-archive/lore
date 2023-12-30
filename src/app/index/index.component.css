@@ -22,16 +22,6 @@
   color: var(--naomi-bg);
 }
 
-.soup {
-  background-color: var(--soup-bg);
-  color: var(--soup-text);
-}
-
-.soup > .title {
-  background-color: var(--soup-text);
-  color: var(--soup-bg);
-}
-
 .melody {
   background-color: var(--melody-bg);
   color: var(--melody-text);

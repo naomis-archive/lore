@@ -19,7 +19,6 @@ describe("IndexComponent", () => {
         IndexComponent,
         RouterTestingModule.withRoutes([
           { path: "naomi", component: IndexComponent },
-          { path: "soup", component: IndexComponent },
           { path: "melody", component: IndexComponent },
           { path: "becca", component: IndexComponent },
           { path: "rosalia", component: IndexComponent }
@@ -49,7 +48,7 @@ describe("IndexComponent", () => {
     ]);
   });
 
-  for (const path of ["naomi", "soup", "melody", "becca", "rosalia"]) {
+  for (const path of ["naomi", "melody", "becca", "rosalia"]) {
     it(`should render the appropriate text on \`${path}\``, async () => {
       await router.navigate([path]);
       fixture.detectChanges();
